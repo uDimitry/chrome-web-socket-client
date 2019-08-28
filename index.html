@@ -17,7 +17,7 @@
             </tr>
             <tr>
               <th>URL:</th>
-              <td><input type="text" id="endpoint" value="ws://localhost/" /></td>
+              <td><input type="text" id="endpoint" value="ws://127.0.0.1:9005/as/"/></td>
             </tr>
             <tr>
               <th>Protocol(s):</th>
@@ -31,6 +31,8 @@
               <th></th>
               <td>
                 <input type="submit" id="btn_connect" value="Connect" />
+                <input type="submit" id="btn_close" value="Close" />
+                <input type="submit" id="btn_clear_log" value="Clear" />
               </td>
             </tr>
           </table>
@@ -55,7 +57,8 @@
             </tr>
             <tr>
               <th></th>
-              <td><input type="submit" id="btn_close" value="Close" /></td>
+              <td>
+              </td>
             </tr>
           </table>
         </div>
@@ -74,7 +77,6 @@
         </div>
       </div> <!-- /controls -->
       <div class="log">
-        <input type="submit" id="btn_clear_log" value="Clear" />
         <div class="entries">
         </div>
       </div> <!-- /log -->
